@@ -1,0 +1,39 @@
+object Form5: TForm5
+  Left = 577
+  Top = 165
+  Width = 566
+  Height = 517
+  Caption = 'Form5'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object mmo1: TMemo
+    Left = 0
+    Top = 0
+    Width = 545
+    Height = 473
+    Color = clInfoBk
+    Constraints.MaxHeight = 473
+    Constraints.MaxWidth = 545
+    Constraints.MinHeight = 473
+    Constraints.MinWidth = 545
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    Lines.Strings = (
+      'mmo1')
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssVertical
+    TabOrder = 0
+    OnChange = mmo1Change
+  end
+end
